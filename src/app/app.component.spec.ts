@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'bootcamp-devjr-modulo8-book' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('bootcamp-devjr-modulo8-book');
+    expect(app).toEqual('bootcamp-devjr-modulo8-book');
   });
 
   it('should render title', () => {
